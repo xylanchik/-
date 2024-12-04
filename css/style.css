@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    @font-face {
+        font-family: "Roboto";
+        src: url();
+    }
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.logo {
+    padding-left: 20px;
+}
+body {
+    font-family: "Roboto";  
+}
+.buttons {
+    display: flex;
+    margin: 15px;
+}
+.button {
+    font-family: "Roboto";
+    color: white;
+    border-radius: 25px;
+    background-color: #6F2CFF;  
+    border-color: #6F2CFF;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 175px;
+    cursor: pointer;
+    border-style: none;
+    font-size: 14px;
+}
+.extrabutton {
+    font-family: "Roboto";
+    border: none; 
+    background: transparent; 
+    color: black; 
+    height: 50px;
+    width: 100px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.menu-link {
+    font-family: "Roboto";
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+a {
+    text-decoration: none
+
+}
+.img-backgro {
+    background-image: url("img/phone.img");
+    background-size: 100vh;
+    background-repeat: no-repeat;
+}
+.text-block {
+    font-family: "Roboto";
+    font-size: 20px;
+    display: flex;
+    padding-left: 155px;
+    padding-top: 150px;
+}
+.main {
+    font-size: 60px;
+    padding-left: 150px;
+}
+.main-two {
+    font-size: 60px;
+    padding-left: 150px;
+    margin-top: -50px;
+    color: #6F2CFF;
+}
+.text {
+    padding-left: 155px;
+    margin-top: -20px;
+    font-size: 20px;
+    line-height: 1,8;
+}
+.new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    padding-top: 20px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 90px;
+    padding-top: 30px;
+    height: 50px;
+}
+.image-one {
+    width: 105px;
+}
+.image-two {
+    width: 105px;
+}
+.image-three {
+    width: 105px;
+}
+.image-four {
+    width: 105px;
+}
+.image-five {
+    width: 105px;
+}
+.image-six {
+    width: 105px;
+}
+.image-seven {
+    width: 105px;
+}
+.image-eight {
+    width: 105px;
+}
+.h2 {
+    text-decoration: underline;
+    text-decoration-color:#6F2CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.mainer {
+    padding-top: 105px;
+    padding-left: 155px;
+}
+.bodyki {
+    font-size: 50px;
+}
+.bookademo {
+    margin-top: 30px;
+    font-family: "Roboto";
+    color: white;
+    border-radius: 25px;
+    background-color: #6F2CFF;  
+    border-color: #6F2CFF;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 240px;
+    cursor: pointer;
+    border-style: none;
+    font-size: 18px;
+}
+.container {
+    display: flex;
+}
