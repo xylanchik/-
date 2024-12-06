@@ -1,16 +1,13 @@
 @font-face {
     font-family: "Roboto";
-    src: url("fonts/Roboto/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 html,body {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
-    @font-face {
-        font-family: "Roboto";
-        src: url();
-    }
+    font-family: "Roboto";
 }
 .header {
     display: flex;
@@ -41,6 +38,12 @@ body {
     border-style: none;
     font-size: 14px;
 }
+
+.button:hover {
+    color: black;
+    transition: 0.2s;
+}
+
 .extrabutton {
     font-family: "Roboto";
     border: none; 
@@ -51,8 +54,17 @@ body {
     padding-left: 20px;
     cursor: pointer;
     font-size: 14px;
+    
 }
-.menu-link {
+
+.extrabutton:hover {
+    color: blueviolet;
+    transition: 0.2s;
+}
+
+
+
+.nav{
     font-family: "Roboto";
     list-style-type: none;
     text-decoration: none;
@@ -62,18 +74,38 @@ body {
     margin: 30px;
     font-size: 16px;
     font-weight: 400;
-    color: black;
+    color: blueviolet;
 }
+
+.nav_link {
+    color: rgb(0, 0, 0);
+}
+
+.nav_link:hover{
+    color: blueviolet;
+    transition: 0.2s;
+}
+
+
 
 a {
     text-decoration: none
+}
+
+.img-back {
+    background-image: url("../img/phone.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 755px;
 
 }
-.img-backgro {
-    background-image: url("img/phone.img");
-    background-size: 100vh;
-    background-repeat: no-repeat;
+
+.Email {
+    padding-left: 150px;
 }
+
+
+
 .text-block {
     font-family: "Roboto";
     font-size: 20px;
@@ -152,7 +184,6 @@ a {
     font-size: 50px;
 }
 .bookademo {
-    margin-top: 30px;
     font-family: "Roboto";
     color: white;
     border-radius: 25px;
@@ -166,6 +197,28 @@ a {
     border-style: none;
     font-size: 18px;
 }
+
+.meet {
+    font-family: "Roboto";
+    color: black;
+    text-decoration: underline;
+    padding-top: 17px;
+}
 .container {
     display: flex;
+    padding-left: 140px;
+    margin-top: 90px;
+    gap: 30px;
+    padding-bottom: 90px;
+}
+
+.container_2{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    
+    
+    
+    
+    
 }
